@@ -7,7 +7,7 @@ triggers:
     branches:
       - "*"
 
-# comment - hi hello try now
+# comment - hi hello try
 jobs:
   build:
     stages:
