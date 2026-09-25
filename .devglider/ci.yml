@@ -11,7 +11,7 @@ triggers:
 jobs:
   build:
     stages:
-      - run: echo "hello build job"
+      - run: sleep 180
 
   other-job:
     depends-on:
