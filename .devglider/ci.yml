@@ -11,10 +11,14 @@ triggers:
 jobs:
   build:
     stages:
-      - run: sleep 180
+      - run: sleep 10
 
   other-job:
     depends-on:
       - build
     stages:
-      - run: echo "hello other job"
+      - run: |
+          echo "hello build"
+          echo "hello steve"
+          echo "whats up?"
+          sleep 30
