@@ -18,6 +18,7 @@ jobs:
       - build
     stages:
       - run: |
+          sleep 5
           echo "hello build"
           echo "hello steve"
           echo "whats up?"
