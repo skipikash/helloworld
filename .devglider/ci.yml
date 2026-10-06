@@ -11,7 +11,7 @@ triggers:
 jobs:
   build:
     stages:
-      - run: sleep 10
+      - run: sleep 20
 
   other-job:
     depends-on:
