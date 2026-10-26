@@ -2,10 +2,10 @@
 triggers:
   pushes:
     branches:
-      - "*"
+      - "**"
   prs:
     branches:
-      - "*"
+      - "**"
 
 # comment 5
 jobs:
