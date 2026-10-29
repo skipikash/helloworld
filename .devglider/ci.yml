@@ -23,4 +23,4 @@ jobs:
           echo "hello steve k"
           echo "trishna"
           echo "whats up?"
-          sleep 32
+          sleep 120
