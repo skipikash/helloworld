@@ -14,7 +14,8 @@ jobs:
       image: python:3.11
     stages:
       - run: python --version
-      - run: python -c "for i in range(1, 6): print(i)"
+      - run: |
+          python -c "for i in range(1, 6): print(i)"
 
   other-job:
     depends-on:
