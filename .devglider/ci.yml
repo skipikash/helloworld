@@ -22,7 +22,7 @@ jobs:
       - build
     stages:
       - run: |
-          sleep 6
+          sleep 7
           echo "hello build hi there"
           echo "hello steve k"
           echo "trishna"
