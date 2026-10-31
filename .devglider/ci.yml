@@ -10,8 +10,10 @@ triggers:
 # comment 5
 jobs:
   build:
+    runner:
+      image: python:3.11
     stages:
-      - run: sleep 11
+      - run: python --version
 
   other-job:
     depends-on:
@@ -23,4 +25,4 @@ jobs:
           echo "hello steve k"
           echo "trishna"
           echo "whats up?"
-          sleep 120
+          sleep 10
